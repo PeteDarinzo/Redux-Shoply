@@ -2,8 +2,8 @@
 
 .ProductDetail {
   border: solid 5px white;
-  margin: 0 auto;
-  max-width: 600px;
+  margin: 15px auto 15px auto;
+  width: 300px;
   background-color: white;
   color: dimgray;
 }

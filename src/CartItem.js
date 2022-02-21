@@ -12,7 +12,7 @@ const CartItem = ({ id, name, price, image_url, quantity }) => {
   function removeFromCart(evt) { dispatch(remove(id)) };
 
   return (
-    <div className="ProductDetail">
+    <div className="ProductDetail ProductDetail-cart">
       <h3>{name}</h3>
       <h4>$ {price}</h4>
       <img src={image_url} />

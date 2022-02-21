@@ -3,6 +3,7 @@ import { useSelector, shallowEqual } from "react-redux";
 import CartItem from "./CartItem";
 import {Button} from "reactstrap";
 import { Link } from "react-router-dom";
+import "./Cart.css";
 
 const Cart = () => {
 
@@ -12,7 +13,7 @@ const Cart = () => {
   );
 
   return (
-    <div>
+    <div className="Cart">
       <h1>Your cart:</h1>
       <Link to="/"><Button color="info">Home</Button></Link>
       {cart.map(i => {

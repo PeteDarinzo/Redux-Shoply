@@ -13,7 +13,7 @@ const ProductList = () => {
 
   return (
     <div className="ProductList">
-      <h1 className="m-3" style={{ color: "hotpink" }}>All Products</h1>
+      <h1 className="m-3">All Products</h1>
       {prodIds.map(id => {
         const p = products[id];
         return (

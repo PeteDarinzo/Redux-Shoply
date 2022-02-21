@@ -1,4 +1,8 @@
 
+.ProductList h1 {
+  color: hotpink;
+}
+
 .ProductList-link {
   margin: 15px auto;
   width: 200px;
@@ -6,5 +10,6 @@
   font-size: 2rem; 
   text-decoration: none;
   border: solid 3px black;
+  background-color: white;
   letter-spacing: 2px;
 }
