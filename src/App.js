@@ -1,7 +1,6 @@
 import './App.css';
 import Routes from "./Routes";
 import NavBar from './NavBar';
-import { Navbar } from 'reactstrap';
 
 function App() {
 
