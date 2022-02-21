@@ -1,0 +1,16 @@
+
+
+.ProductDetail {
+  border: solid 5px white;
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: white;
+  color: dimgray;
+}
+
+.ProductDetail img {
+  border: solid 3px dimgray;
+  padding: 5px;
+  max-width: 200px;
+  max-height: 200px;
+}
